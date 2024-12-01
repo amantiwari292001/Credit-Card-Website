@@ -1,0 +1,28 @@
+/* font awesome cdn link */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+
+/* google font cdn link */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: "Nunito", sans-serif;
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+:root{ 
+    /* Object in CSS as in TS */
+    --main-color: #1B756B;
+    --black: #334;
+    --white: #fff;
+    --light-bg: #D7FCE7;
+    --light-color: #666;
+    --light-white: rgba(255,255,255,.3);
+    --bg-color: #eee;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    --border: .1rem solid rgba(0,0,0,.2);
+}
