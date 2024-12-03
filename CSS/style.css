@@ -103,3 +103,57 @@ section{
 .header .flex .navbar a:hover{
     color: var(--main-color);
 }
+
+.header .flex .btn{
+    margin-top: 0;
+}
+
+#menu-btn{
+    display: none;
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+/* media-queries */
+
+@media (max-width:1280px){
+    html{
+        font-size: 55%;
+        scroll-padding-top: 6.5rem;
+    }
+}
+
+@media (max-width:768px){
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .flex .btn{
+        display: none;
+    }
+    .header .flex{
+        position: relative;
+    }
+    .header .flex .navbar{
+        position: absolute;
+        top: 100%; right: 0; left: 0;
+        background-color: var(--light-white);
+        backdrop-filter: blur(1rem);
+        border-top: var(--border);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+}
+
+@media (max-width:480px){
+    html{
+        font-size: 50%;
+    }
+}
